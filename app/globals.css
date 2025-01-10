@@ -51,3 +51,13 @@
     src: url("./fonts/AirbnbCereal_W_Bd.otf") format("opentype");
   }
 }
+
+.swiper {
+  @apply w-full;
+}
+.swiper-pagination-bullet {
+  @apply !bg-gray-900 border;
+}
+.swiper-pagination-bullet-active {
+  @apply !bg-white border;
+}
