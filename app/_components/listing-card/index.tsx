@@ -40,7 +40,7 @@ const ListingCard = ({
   tags,
 }: IProps) => {
   return (
-    <div className="shadow-lg border border-gray-200 rounded-lg sm:w-96 md:flex md:w-full">
+    <div className="shadow-lg border border-gray-200 rounded-lg w-full xs:w-80 sm:w-96 md:flex md:w-full">
       <ImageSlider title={title} />
 
       <div className="flex flex-col md:grid md:grid-cols-5 md:flex-1">

@@ -65,7 +65,7 @@ const PricingDetails = ({ pricing, stayInfo, tags }: IProps) => {
       </div>
 
       {/* Only for smaller screens */}
-      <div className="flex justify-between md:hidden col-span-2 space-y-1 px-3 py-2">
+      <div className="flex flex-wrap justify-between md:hidden col-span-2 space-y-1 px-3 py-2">
         <div className="flex items-center">
           <span className="text-majesticBlue text-lg sm:text-xl font-semibold">
             {pricing.currency} {pricing.discountedPrice.toFixed(2)}
