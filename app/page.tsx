@@ -2,7 +2,7 @@ import ListingCard from './_components/listing-card';
 
 export default function Home() {
   return (
-    <div className="font-airbnb_cereal px-4 flex justify-center items-center max-w-5xl min-h-screen">
+    <div className="font-airbnb_cereal px-4 max-w-5xl">
       <ListingCard
         title="Hotel Golden Palace, Puri"
         ratingsInfo={{ ratings: 4.5, reviewsCount: 23 }}
