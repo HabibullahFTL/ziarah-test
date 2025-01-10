@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ziarah Test Project
 
-## Getting Started
+This project is a UI implementation based on the provided Figma design. It features a listing card built using **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## 🚀 Deployed Link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can view the deployed version of the project here:  
+**[https://ziarah-test.vercel.app/](https://ziarah-test.vercel.app/)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive design using Tailwind CSS
+- Accurate implementation of the Figma design
+- Built with Next.js for server-side rendering and performance
+- Styled with Tailwind CSS for a modern and scalable UI
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Getting Started (Running the project locally)
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+Make sure you have the following installed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Node.js** (v16 or above)
+- **npm** or **yarn**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/HabibullahFTL/ziarah-test.git
+   cd ziarah-test
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   yarn dev
+   ```
+
+4. Open your browser and navigate to:<br>
+   [http://localhost:3000](http://localhost:3000)
+
+## 📝 Feedback
+
+If you have any questions or feedback, feel free to reach out or raise an issue on the repository.
+
+---
+
+Thank you for reviewing this project! 😊
